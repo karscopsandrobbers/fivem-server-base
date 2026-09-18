@@ -1,0 +1,11 @@
+{
+	"LANGUAGE_NAME": "Nederlands",
+	"ERROR": "Fout",
+	"WARNING": "Waarschuwing",
+	"WELCOME": "Welkom op de server, %%. Druk op E bij mensen, auto's en objecten om te interacteren.",
+	"PLAYER_JOINED": "%% is binnengekomen.",
+	"PLAYER_LEFT": "%% is vertrokken (%%).",
+	"LANGUAGE_CHANGED": "Taal gewijzigd naar %%.",
+	"VEHICLE_LOCKED": "Voertuig op slot.",
+	"VEHICLE_UNLOCKED": "Voertuig van slot."
+}

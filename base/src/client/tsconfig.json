@@ -1,0 +1,20 @@
+{
+	"include": ["./**/*", "../utils/**/*"],
+	"exclude": ["**/node_modules"],
+	"compilerOptions": {
+		"noEmit": true,
+		"target": "es2020",
+		"module": "commonjs",
+		"moduleResolution": "bundler",
+		"strictNullChecks": true,
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"paths": {
+			"@shared/*": ["../utils/shared/*"],
+			"@client/*": ["./*"]
+		},
+		"lib": ["es2020", "DOM"],
+		"types": ["@citizenfx/client", "@types/node"]
+	}
+}

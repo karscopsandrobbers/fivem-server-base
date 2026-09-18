@@ -1,0 +1,34 @@
+# Build output. resources/base is rebuilt by `npm run build` inside base/.
+/cache/**/*
+/resources/**/*
+# The streamed content packs ARE tracked: stream/ and data/ only, the manifests are generated.
+# Escaped brackets: [dlc] is a character class to gitignore.
+!/resources/\[dlc\]/
+!/resources/\[dlc\]/*/
+!/resources/\[dlc\]/*/stream/
+!/resources/\[dlc\]/*/stream/**
+!/resources/\[dlc\]/*/data/
+!/resources/\[dlc\]/*/data/**
+
+# Your licence key and this machine's overrides (see the .example files).
+keys.cfg
+env.local.cfg
+
+# FXServer binaries, if you keep them in here rather than beside the repo.
+/fxserver/
+/server/
+
+# Node
+*/**/node_modules/
+
+# Logs and server runtime state.
+*.log
+.console-history
+.id
+/local-database/
+/logs/
+/crashes/
+/db/*
+
+# The server console history, written into the cwd on every run.
+.replxx_history

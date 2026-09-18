@@ -1,0 +1,36 @@
+{
+	"name": "fivem-base",
+	"version": "0.1.0",
+	"description": "A barebones TypeScript FiveM server: entity pools, a ped brain, floating prompts, GUI helpers, i18n and content packs.",
+	"private": true,
+	"scripts": {
+		"build": "node ./scripts/build.js",
+		"watch": "node ./scripts/build.js --watch",
+		"dlc": "node ./scripts/dlc.js",
+		"lint": "eslint ."
+	},
+	"optionalDependencies": {
+		"@typescript/typescript-linux-x64": "7.0.2",
+		"@typescript/typescript-win32-x64": "7.0.2"
+	},
+	"dependencies": {
+		"@citizenfx/client": "2.0.35805-1",
+		"@citizenfx/server": "2.0.35805-1",
+		"fs-extra": "^11.4.0"
+	},
+	"devDependencies": {
+		"@eslint/js": "^10.0.1",
+		"@types/node": "^22.20.1",
+		"@typescript-eslint/eslint-plugin": "^8.68.0",
+		"@typescript-eslint/parser": "^8.68.0",
+		"@typescript/native": "npm:typescript@^7.0.2",
+		"esbuild": "^0.28.2",
+		"eslint": "^10.9.1",
+		"globals": "^17.11.0",
+		"minimist": "^1.2.8",
+		"typescript": "npm:@typescript/typescript6@^6.0.2"
+	},
+	"engines": {
+		"node": ">=22.11.0"
+	}
+}

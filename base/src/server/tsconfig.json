@@ -1,0 +1,21 @@
+{
+	"include": ["./**/*", "../utils/**/*"],
+	"exclude": ["**/node_modules"],
+	"compilerOptions": {
+		"noEmit": true,
+		"target": "ES2020",
+		"strict": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"module": "CommonJS",
+		"resolveJsonModule": true,
+		"paths": {
+			"@shared/*": ["../utils/shared/*"],
+			"@server/*": ["./*"]
+		},
+		"types": ["@citizenfx/server", "@types/node", "./types"],
+		"lib": ["ES2020"],
+		"noImplicitAny": false,
+		"skipLibCheck": true
+	}
+}

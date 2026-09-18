@@ -1,0 +1,2 @@
+# Copy to keys.cfg (gitignored). Get a key at https://portal.cfx.re
+sv_licenseKey "changeme"
